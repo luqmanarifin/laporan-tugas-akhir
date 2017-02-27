@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+TA-13513024-Luqman.docx
+# etc...
+
+# ...even if they are in subdirectories
+!*/
