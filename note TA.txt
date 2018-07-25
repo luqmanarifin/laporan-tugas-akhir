@@ -7,6 +7,7 @@ update/apapun
 
 bab 2 masih bisa ditambah: arsitektur WSO2 tentang provisioning user
 bab 2 masih bisa ditambah: protokol
+bab 2 masih bisa ditambah: media penyimpanan (LDAP, RDBMS, Redis)
 
 pekerjaan lain:
 masalah
@@ -26,28 +27,36 @@ auth0
 - DB mereka kontrol
 
 wso2
-+ berat (ntar coba jalanin)
 + open source, self hosted possible
 + punya dashboard
++ support SDK
++ integrasi SSO lain banyak
+- berat (ntar coba jalanin) 
 - manajemen user harus dilakukan pada sisi client, tidak terpusat
 - dokumentasi ga jelas, sample tidak jalan
 
 CAS
 + open source, self hosted possible
++ dokumentasi lengkap
++ support LDAP, database
+- sample app tidak ada
 - ga punya dashboard
 - tidak SSL
 - berat https://apereo.github.io/cas/development/planning/Installation-Requirements.html#servlet-containers
 - (Java, .Net, PHP, Perl, Apache) https://apereo.github.io/cas/5.3.x/index.html
 - tidak terkini, tidak support single page app kyk javascript
 
-JOSSON
+JOSSO
 
 1 organisasi 
 1 organisasi = n service
 1 organisasi = n user
 
-# organisasi
-register member = register organisasi
+# service
+read all service
+add service
+remove service
+edit service
 
 # user thingy
 signup
@@ -55,13 +64,26 @@ login
 validate
 
 # provisioning
-read user
+read all user
 add user
 delete user
 modify user
 
+
 analisis solusi
+- perbandingan
 - system requirement
 - software kebutuhan fungsional
 - software kebutuhan non fungsional
 - use case
+- alur proses
+
+rancangan solusi
+- web SSO
+  - eksternal
+  - internal
+- dokumentasi
+- aplikasi SP
+  - vue + material design
+  - go + material design
+  - aplikasi wiwit
