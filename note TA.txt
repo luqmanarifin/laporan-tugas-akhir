@@ -1,0 +1,67 @@
+isi bab 2 tentang web sso:
+definisi + pembuat
+support dan fitur
+arsitektur umum/komponen
+mekanisme
+update/apapun
+
+bab 2 masih bisa ditambah: arsitektur WSO2 tentang provisioning user
+bab 2 masih bisa ditambah: protokol
+
+pekerjaan lain:
+masalah
+how he did it
+
+
+auth0
++ mudah integrasi
++ dokumentasi bagus, sample jalan
++ support SDK
++ support banyak 
++ punya dashboard
+- tidak bisa dikembangkan lanjut
+- tidak open source
+- self host bayar / proprietary software
+- redirect ke sana / down?
+- DB mereka kontrol
+
+wso2
++ berat (ntar coba jalanin)
++ open source, self hosted possible
++ punya dashboard
+- manajemen user harus dilakukan pada sisi client, tidak terpusat
+- dokumentasi ga jelas, sample tidak jalan
+
+CAS
++ open source, self hosted possible
+- ga punya dashboard
+- tidak SSL
+- berat https://apereo.github.io/cas/development/planning/Installation-Requirements.html#servlet-containers
+- (Java, .Net, PHP, Perl, Apache) https://apereo.github.io/cas/5.3.x/index.html
+- tidak terkini, tidak support single page app kyk javascript
+
+JOSSON
+
+1 organisasi 
+1 organisasi = n service
+1 organisasi = n user
+
+# organisasi
+register member = register organisasi
+
+# user thingy
+signup
+login
+validate
+
+# provisioning
+read user
+add user
+delete user
+modify user
+
+analisis solusi
+- system requirement
+- software kebutuhan fungsional
+- software kebutuhan non fungsional
+- use case
