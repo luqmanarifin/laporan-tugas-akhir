@@ -8,6 +8,7 @@ update/apapun
 bab 2 masih bisa ditambah: arsitektur WSO2 tentang provisioning user
 bab 2 masih bisa ditambah: protokol
 bab 2 masih bisa ditambah: media penyimpanan (LDAP, RDBMS, Redis)
+bab 3 dijelasin kenapa buat masing2 karakteristik kenapa gitu
 
 pekerjaan lain:
 masalah
@@ -76,12 +77,17 @@ analisis solusi
 - software kebutuhan fungsional
 - software kebutuhan non fungsional
 - use case
-- alur proses
 
 rancangan solusi
+- gambaran umum solusi
+  cara kerja
+  REST API. kenapa
+  open source
+  kemungkinan pengembangan SSO
+  kemungkinan pengembangan client
 - web SSO
-  - eksternal
-  - internal
+  arsitektur SSO pada eksternal
+  arsitektur SSO internal
 - dokumentasi
 - aplikasi SP
   - vue + material design
