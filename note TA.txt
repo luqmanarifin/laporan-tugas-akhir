@@ -8,7 +8,7 @@ update/apapun
 bab 2 masih bisa ditambah: arsitektur WSO2 tentang provisioning user
 bab 2 masih bisa ditambah: protokol
 bab 2 masih bisa ditambah: media penyimpanan (LDAP, RDBMS, Redis)
-bab 3 analisis per web sso: 
+bab 3 analisis per web sso: support SDK dimasukin di auth0 dan wso2
 
 pekerjaan lain:
 masalah
