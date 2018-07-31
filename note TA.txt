@@ -8,7 +8,7 @@ update/apapun
 bab 2 masih bisa ditambah: arsitektur WSO2 tentang provisioning user
 bab 2 masih bisa ditambah: protokol
 bab 2 masih bisa ditambah: media penyimpanan (LDAP, RDBMS, Redis)
-bab 3 dijelasin kenapa buat masing2 karakteristik kenapa gitu
+bab 3 analisis per web sso: 
 
 pekerjaan lain:
 masalah
@@ -18,7 +18,7 @@ how he did it
 auth0
 + mudah integrasi
 + dokumentasi bagus, sample jalan
-+ support SDK
++ support SDK (belom dimasukin)
 + support banyak 
 + punya dashboard
 - tidak bisa dikembangkan lanjut
@@ -30,7 +30,7 @@ auth0
 wso2
 + open source, self hosted possible
 + punya dashboard
-+ support SDK
++ support SDK (belom dimasukin)
 + integrasi SSO lain banyak
 - berat (ntar coba jalanin) 
 - manajemen user harus dilakukan pada sisi client, tidak terpusat
