@@ -74,18 +74,50 @@ modify user
 
 ------------ mysql database -----------
 # applications
-
+id
+name
+client_id
+client_secret
+description
+application_logo
+created_at
+updated_at
 
 # users
-
+id
+user_id
+first_name
+last_name
+picture
+gender
+email
+password
+role
+latest_login
+last_ip
+connection
+created_at
+updated_at
 
 # logins
+id
+user_id
+application_id
+token
+datetime
+status
 
 
 # tokens
-
+id
+token
+user_id
+created_at
+expired_at
 
 ------------- redis -------------------
+user:<id>:...
+token:<token>:<user_id>
 
 
 analisis solusi
