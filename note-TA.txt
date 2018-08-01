@@ -72,6 +72,22 @@ delete user
 modify user
 
 
+------------ mysql database -----------
+# applications
+
+
+# users
+
+
+# logins
+
+
+# tokens
+
+
+------------- redis -------------------
+
+
 analisis solusi
 - perbandingan
 - system requirement
